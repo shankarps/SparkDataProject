@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.apache.spark._
 
-object ClimateTemperatureMax {
+object ClimateTemperatureMaxYearly {
   
     def main(args: Array[String])={
       val conf = new SparkConf().setMaster("local[*]").setAppName("Temperature_Analysis")
